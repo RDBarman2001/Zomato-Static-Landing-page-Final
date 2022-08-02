@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+.hero__section{
+  background: url(images/heroSectionBackground.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 60vh;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 16px 48px;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+.navbar__menu__container{
+  display: flex;
+  gap: 20px;
+}
+
+.navbar__menu__container .user__icon{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 1px solid white;
+
+}
