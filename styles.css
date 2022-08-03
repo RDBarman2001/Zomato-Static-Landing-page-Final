@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+.hero__section{
+  background: url(images/heroSectionBackground.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 60vh;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 16px 48px;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+.navbar__menu__container{
+  display: flex;
+  gap: 20px;
+}
+
+.navbar__menu__container .user__icon{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 1px solid white;
+  display: none;
+}
+.hero__section__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32PX;
+  height: calc(60vh - 60px);
+}
+.hero__section__logo{
+  width:300px;
+  height: auto;
+}
+.hero__section_title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+.hero__section__input{
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  width:60%;
+}
+.hero__section__location,
+.hero__section__search{
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+.hero__section__location{
+  width:35%;
+  border-right: 2px solid gray;
+}
+.hero__section__search{
+  width: 65%;
+}
+@media only screen and (max-width: 600px){
+  .navbar__menu__container .user__icon{
+    display: flex;
+  }
+  .link{
+    display: none;
+  }
+  .navbar{
+    padding: 16px;
+  }
+  .hero__section{
+    min-height: 80vh;
+  }
+  .hero__section__input{
+    flex-direction: column;
+    background: transparent;
+    width: 100%;
+  }
+  .hero__section__location,
+  .hero__section__search{
+    padding: 15px;
+    border-radius: 10px;
+    width: 95%;
+  }
+  .hero__section__container{
+    height: calc(80vh-60px);
+  }
+  .hero__section_title{
+    font-size: 20px;
+    width: 95%;
+  }
+}
