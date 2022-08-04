@@ -200,16 +200,16 @@ font-size: 12px;
 
 }
 .card1{
-  background-image: url(/images/collection1.jpg);
+  background-image: url(images/collection1.jpg);
 }
 .card2{
-  background-image: url(/images/collection2.jpg);
+  background-image: url(images/collection2.jpg);
 }
 .card3{
-  background-image: url(/images/collection3.jpg);
+  background-image: url(images/collection3.jpg);
 }
 .card4{
-  background-image: url(/images/collection4.jpg);
+  background-image: url(images/collection4.jpg);
 }
 .overlay{
   height: 100%;
